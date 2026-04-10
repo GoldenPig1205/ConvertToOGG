@@ -1,8 +1,8 @@
 import os
 from pydub import AudioSegment
 
-input_folder = 'D:/Tools/ConvertToOGG/input'
-output_folder = 'D:/Tools/ConvertToOGG/output'
+input_folder = '../ConvertToOGG/input'
+output_folder = '../ConvertToOGG/output'
 
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
